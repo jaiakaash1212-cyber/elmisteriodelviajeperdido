@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --crimson: #AA151B;
+    --gold: #F1BF00;
+    --parchment: #F7F0DF;
+    --parchment-dark: #E8DCC0;
+    --navy: #17243A;
+    --leather: #4A2E18;
+  }
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-typewriter {
+  font-family: 'Special Elite', monospace;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Vintage paper subtle texture effect */
+.parchment-texture {
+  background-color: #F7F0DF;
+  background-image: radial-gradient(#d3c6aa 0.75px, transparent 0.75px), radial-gradient(#d3c6aa 0.75px, #F7F0DF 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.vintage-border {
+  border: 1px solid rgba(170, 21, 27, 0.25);
+  box-shadow: 0 4px 20px -2px rgba(23, 36, 58, 0.15), inset 0 0 30px rgba(74, 46, 24, 0.05);
+}
+
+.wax-seal {
+  background: radial-gradient(circle at 35% 35%, #d42a31, #AA151B 65%, #660c10);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35), inset 0 2px 4px rgba(255, 255, 255, 0.25);
+}
